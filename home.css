@@ -5,8 +5,9 @@
 
 .navbar {
   background-color: teal;
-  padding-bottom: 60px;
   padding-top: 15px;
+  position: sticky;
+  top: 0;
 }
 
 .name {
@@ -21,8 +22,8 @@
   font-size: 16px;
   color: white;
   text-transform: uppercase;
-  scale: 1.1;
-  margin-right: 450px;
+  display: flex;
+  justify-content: center;
 }
 
 .links a {
@@ -31,6 +32,7 @@
   color: white;
   float: right;
   scale: 1.1;
+  transition: all 0.3s linear;
 }
 
 .links a:hover {
@@ -171,7 +173,6 @@ h2 {
     color: white;
     text-transform: uppercase;
     scale: 1.1;
-    margin-right: 115px;
   }
   .txt-type {
     font-size: 3rem;
@@ -187,11 +188,10 @@ h2 {
     font-size: 1.5rem;
   }
   .links {
-    font-size: 7px;
+    font-size: 11px;
     color: white;
     text-transform: uppercase;
     scale: 1.1;
-    margin-right: 405px;
   }
 
   .img2 {

@@ -18,7 +18,8 @@ body {
 }
 
 .container {
-  max-width: 400px;
+  /* max-width: 400px; */
+  padding: 0 20px;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -36,8 +37,9 @@ body {
 #contact {
   background: #f9f9f9;
   padding: 25px;
-  margin: 150px 0;
+  margin: 150px auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  max-width: 600px;
 }
 
 #contact h3 {
@@ -127,10 +129,6 @@ fieldset {
   color: black;
 }
 
-:-moz-placeholder {
-  color: #black;
-}
-
 ::-moz-placeholder {
   color: black;
 }
@@ -142,7 +140,7 @@ fieldset {
 h1 a {
   color: rgb(255, 187, 0);
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 20px;
   text-decoration: none;
   display: block;
@@ -155,4 +153,94 @@ h1:hover a {
 
 h3 {
   color: rgb(255, 187, 0);
+}
+#footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: teal;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+#footer p {
+  font-family: Tahoma, Geneva, sans-serif;
+  padding-top: 40px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* SOCIAL MEDIA _________________________________________*/
+
+.box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  line-height: 52px;
+  font-size: 30px;
+  text-align: center;
+  color: teal;
+  border-radius: 5px;
+  background: #dfdfdf;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.box:hover {
+  transition: 0.3s;
+  color: white;
+}
+#facebook:hover {
+  background-color: rgb(255, 187, 0);
+}
+#facebook a {
+  color: gray;
+}
+
+#linkedin:hover {
+  background-color: rgb(255, 187, 0);
+}
+#linkedin a {
+  color: gray;
+}
+
+#behance:hover {
+  background-color: rgb(255, 187, 0);
+}
+#behance a {
+  color: gray;
+}
+
+#codepen:hover {
+  background-color: rgb(255, 187, 0);
+}
+
+#codepen a {
+  color: gray;
+}
+
+.links {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  float: right;
+  scale: 1.1;
+  transition: all 0.3s linear;
+}
+
+.links a:hover {
+  color: rgb(255, 187, 0);
+}
+
+hr {
+  color: white;
 }
